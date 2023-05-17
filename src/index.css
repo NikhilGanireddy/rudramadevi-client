@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-sans;
+}
+
+input[type="text"],
+input[type="password"] {
+    @apply px-3 py-2 bg-transparent border border-gray-900 focus:outline-none rounded-2xl;
+}
+
+.bg-dark {
+    background-image: url("./assets/dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-light {
+    background-image: url("./assets/pexels-rodion-kutsaiev-9436715.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.color-light {
+    background-color: #e24c00;
+}
+
+.color-dark {
+    background-color: #702963;
+}
+
+.text-light {
+    color: #FF6700;
+}
+
+.text-dark {
+    color: #702963;
+}
+
+.hover-color-light:hover {
+    background-color: #e24c00;
+    transition-duration: 200ms;
+    transition-property: all;
+}
+
+.hover-text-light:hover {
+    color: #e24c00;
+}
