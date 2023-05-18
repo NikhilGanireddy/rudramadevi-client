@@ -18,7 +18,7 @@ const ProfileMini = () => {
         <div className="flex items-center justify-center">
           <img
             src={user != null ? user.pic : light}
-            className="w-[100px] rounded-full h-[100px]"
+            className="w-[100px] rounded-full h-[100px] object-cover"
           ></img>
         </div>
         <div className="flex flex-col items-center justify-center gap-[6px] font-semibold">

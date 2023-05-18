@@ -3,9 +3,11 @@ import AttendanceMini from "../components/AttendanceMini";
 import FoodMini from "../components/FoodMini";
 import ProfileMini from "../components/ProfileMini";
 import {UserContext} from "../UserContext";
-import {Navigate} from "react-router-dom";
+import {Link, Navigate} from "react-router-dom";
 import RoomMini from "../components/RoomMini";
 import MessSecratariesMini from "../components/MessSecratariesMini.jsx";
+import ComplaintsMini from "../components/ComplaintsMini";
+import HelpMini from "../components/HelpMini.jsx";
 
 const Dashboard = () => {
     const {user, bgColor} = useContext(UserContext);
@@ -21,8 +23,7 @@ const Dashboard = () => {
         return <Navigate to={"/login"}/>;
     }
 
-    return (
-        <div className="flex flex-col justify-center w-full h-full gap-4 rounded-2xl">
+    return (<div className="flex flex-col justify-center w-full h-full gap-4 rounded-2xl">
             <div className="flex items-center justify-center w-full gap-4 h-2/5 rounded-2xl">
                 <div
                     className={`w-2/5 h-full p-4 transition-all duration-200 ease-in-out shadow-lg rounded-2xl  ${changeBgColor()}  backdrop-blur-md    overflow-hidden  hover:bg-gray-900/30`}
@@ -65,14 +66,19 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div
-                        className={`w-full p-4 transition-all duration-200 ease-in-out shadow-lg bg-gray-900/20 backdrop-blur-md h-1/2 rounded-2xl   ${changeBgColor()} hover:bg-gray-900/30   overflow-hidden `}
+                        className={`w-full h-1/2 flex justify-center items-center gap-4`}
                     >
-                        <div className="text-2xl font-semibold">Complaints</div>
+                        <div
+                            className={`w-3/5 h-full  p-4 transition-all duration-200 ease-in-out shadow-lg backdrop-blur-md rounded-2xl hover:bg-gray-900/30 overflow-hidden ${changeBgColor()}`}>
+                            <ComplaintsMini/>
+                        </div>
+                        <div className={`w-2/5 h-full  p-4 transition-all duration-200 ease-in-out shadow-lg backdrop-blur-md rounded-2xl hover:bg-gray-900/30 overflow-hidden ${changeBgColor()}`}>
+                        <HelpMini/>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        </div>);
 };
 
 export default Dashboard;

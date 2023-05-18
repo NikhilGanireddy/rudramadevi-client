@@ -18,8 +18,8 @@ import ChangePassword from "./components/ChangePassword";
 import MessSecataries from "./components/MessSecataries.jsx";
 
 const App = () => {
-  // axios.defaults.baseURL = "http://localhost:4000";
-  axios.defaults.baseURL = "https://rudramadevi.onrender.com";
+  axios.defaults.baseURL = "http://localhost:4000";
+  // axios.defaults.baseURL = "https://rudramadevi.onrender.com";
 
   axios.defaults.withCredentials = true;
 
