@@ -22,42 +22,42 @@ const MessSecratariesMini = () => {
         </div>
         <div className={` grid grid-cols-4 gap-4`}>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
             <div
-                className={`flex  justify-between items-center font-semibold gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
+                className={`flex  justify-between items-center font-semibold hover:scale-[1.05] duration-100 transition-all ease-linear gap-2 py-3 px-4 rounded-2xl ${changeBgColor()}`}>
                 <div>Nikhil</div>
                 <div>B42</div>
             </div>
