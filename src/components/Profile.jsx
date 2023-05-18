@@ -36,14 +36,14 @@ const Profile = () => {
     <div
       className={`flex flex-col justify-center items-center gap-12 w-full h-full p-4 ${changeBgColor()} rounded-2xl backdrop-blur-md`}
     >
-      <div className="flex flex-col items-center justify-center w-full gap-4 pt-6 h-max">
+      <div className="flex flex-col items-center justify-center w-full gap-4  h-max">
         <div>
           <div className=" w-[150px] h-[150px] rounded-full flex justify-center items-center overflow-hidden">
             <img className="object-cover w-full h-full" src={user.pic} />
           </div>
         </div>
         <label
-          className={`px-8 py-4 flex justify-center items-center gap-2 cursor-pointer rounded-2xl ${changeBgColor()}`}
+          className={`px-8 py-4 flex justify-center items-center gap-2 cursor-pointer  rounded-2xl ${changeBgColor()} }`}
         >
           <UilCloudUpload />
           <input className="hidden" type="file" onChange={uploadPhoto} />

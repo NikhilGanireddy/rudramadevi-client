@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import light from "../assets/light.jpg";
 import { UilPen } from "@iconscout/react-unicons";
 import { UserContext } from "../UserContext";
+import {Link} from "react-router-dom";
 
 const ProfileMini = () => {
   const { user } = useContext(UserContext);
@@ -9,7 +10,9 @@ const ProfileMini = () => {
     <div className="relative flex flex-col gap-4 ">
       <div className="flex items-center justify-between text-lg font-semibold">
         <span>Profile</span>
-        <UilPen />
+        <Link to={"/user/profile"}>
+          <UilPen />
+        </Link>
       </div>
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-center">

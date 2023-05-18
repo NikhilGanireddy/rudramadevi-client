@@ -11,11 +11,11 @@ import Attendance from "./components/Attendance";
 import Food from "./components/Food";
 import Profile from "./components/Profile";
 import Room from "./components/Room";
-import MS from "./components/MS";
 import Complaints from "./components/Complaints";
 import Help from "./components/Help";
 import Logout from "./components/Logout";
 import ChangePassword from "./components/ChangePassword";
+import MessSecataries from "./components/MessSecataries.jsx";
 
 const App = () => {
   // axios.defaults.baseURL = "http://localhost:4000";
@@ -35,7 +35,7 @@ const App = () => {
           <Route path="/user/food" element={<Food />} />
           <Route path="/user/profile" element={<Profile />} />
           <Route path="/user/room" element={<Room />} />
-          <Route path="/user/ms" element={<MS />} />
+          <Route path="/user/mess-secratary" element={<MessSecataries />} />
           <Route path="/user/complaints" element={<Complaints />} />
           <Route path="/user/help" element={<Help />} />
           <Route path="/user/logout" element={<Logout />} />

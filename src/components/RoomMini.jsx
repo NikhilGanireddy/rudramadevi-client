@@ -3,6 +3,7 @@ import { BiChair, BiBed, BiBulb } from "react-icons/bi";
 import { MdTableRestaurant } from "react-icons/md";
 import { UserContext } from "../UserContext";
 import { UilExternalLinkAlt } from "@iconscout/react-unicons";
+import {Link} from "react-router-dom";
 
 const RoomMini = () => {
   const { bgColor } = useContext(UserContext);
@@ -25,7 +26,9 @@ const RoomMini = () => {
     <div className="flex flex-col items-center justify-center w-full h-full gap-4 rounded-2xl">
       <div className="flex items-center justify-between w-full text-lg font-semibold">
         <span>Room</span>
-        <UilExternalLinkAlt />
+        <Link to={"/user/room"}>
+          <UilExternalLinkAlt />
+        </Link>
       </div>
       <div className="flex flex-row w-full h-full gap-4">
         <div className="flex flex-col items-center justify-center w-2/5 h-full gap-4 rounded-2xl ">

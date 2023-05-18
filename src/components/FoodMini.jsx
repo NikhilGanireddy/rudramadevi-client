@@ -6,6 +6,7 @@ import {
   UilExternalLinkAlt
 } from "@iconscout/react-unicons";
 import { UserContext } from "../UserContext";
+import {Link} from "react-router-dom";
 
 const FoodMini = () => {
   const { bgColor, setBgColor } = useContext(UserContext);
@@ -20,8 +21,10 @@ const FoodMini = () => {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between text-lg font-semibold">
-        <span>Attendance</span>
-        <UilExternalLinkAlt />
+        <span>Food</span>
+        <Link to={"/user/food"}>
+          <UilExternalLinkAlt />
+        </Link>
       </div>
       <div className="grid grid-cols-2 gap-4 font-semibold">
         <div

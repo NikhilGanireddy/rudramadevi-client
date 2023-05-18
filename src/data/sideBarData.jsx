@@ -53,7 +53,7 @@ export const sideBarData = [
     icon: <UilUsersAlt />,
     text: "MS",
     class: "",
-    path: "/user/ms"
+    path: "/user/mess-secratary"
   },
 
   {

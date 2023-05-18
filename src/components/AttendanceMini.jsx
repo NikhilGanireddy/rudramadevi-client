@@ -21,7 +21,9 @@ const AttendanceMini = () => {
     <div className="relative flex flex-col gap-12">
       <div className="flex items-center justify-between text-lg font-semibold">
         <span>Attendance</span>
-        <UilExternalLinkAlt />
+        <Link to={"/user/attendance"}>
+          <UilExternalLinkAlt />
+        </Link>
       </div>
       <div className="flex flex-col items-center justify-center gap-6">
         <div className="grid w-full h-full grid-cols-5 gap-2">
