@@ -37,7 +37,7 @@ const LoginPage = () => {
       const { data } = await axios.post("/login", {
         name,
         hallTicket,
-        password
+        password,
       });
       setUser(data);
       console.log(data);
