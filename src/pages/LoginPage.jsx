@@ -5,7 +5,6 @@ import { UserContext } from "../UserContext";
 import { UilMoon, UilSun } from "@iconscout/react-unicons";
 
 const LoginPage = () => {
-  const [toggle, setToggle] = useState(true);
   const [name, setName] = useState("");
   const [hallTicket, sethallTicket] = useState("");
   const [password, setPassword] = useState("");
@@ -40,7 +39,7 @@ const LoginPage = () => {
         password,
       });
       setUser(data);
-      console.log(data);
+      console.log(user);
       console.log(data.name);
 
       alert("Login Succesful");
