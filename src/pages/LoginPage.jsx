@@ -39,6 +39,7 @@ const LoginPage = () => {
         password,
       });
       setUser(data);
+      console.log(data);
       alert("Login Succesful");
       setRedirect(true);
     } catch {

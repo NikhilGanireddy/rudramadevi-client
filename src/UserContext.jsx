@@ -9,7 +9,7 @@ export function UserContextProvider({ children }) {
     if (!user) {
       axios.get("/profile").then(({ data }) => {
         setUser(data);
-        console.log({ data });
+        console.log(user);
       });
     }
   }, []);
