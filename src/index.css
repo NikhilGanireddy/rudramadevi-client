@@ -16,6 +16,7 @@ input[type="password"] {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 .bg-light {
